@@ -1,7 +1,11 @@
 Faris Bayhaqi
+
 2106653110
+
 PBP A
+
 Tugas 2
+
 
 Tugas 2: Pengenalan Aplikasi Django dan Models View Template (MVT) pada Django
 Pemrograman Berbasis Platform (CSGE602022) - diselenggarakan oleh Fakultas Ilmu Komputer Universitas Indonesia, Semester Ganjil 2022/2023
