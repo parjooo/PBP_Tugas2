@@ -16,6 +16,7 @@ Pada tugas ini, kamu akan mengimplementasikan konsep Model-View-Template serta b
 5. Membuat sebuah README.md yang berisi link menuju aplikasi Heroku yang sudah kamu deploy serta jawaban dari beberapa pertanyaan berikut:
    - Buatlah bagan yang berisi request client ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara urls.py, views.py,
      models.py, dan berkas html;
+    
      ->![Untitled Diagram drawio (3)](https://user-images.githubusercontent.com/94624202/190207366-f071378a-13ac-45cc-be84-64bb9d29d5b8.png)
        
        URL       : Mengarahkan permintaan HTTP ke tampilan yang sesuai berdasarkan URL perminataan
@@ -25,11 +26,13 @@ Pada tugas ini, kamu akan mengimplementasikan konsep Model-View-Template serta b
        Templates : Struktur / layout sebuah file dengan placeholder yang digunakan utk mewakili konten yang sebenarnya
 
    - Jelaskan kenapa menggunakan virtual environment? Apakah kita tetap dapat membuat aplikasi web berbasis Django tanpa menggunakan virtual environment?
+  
      -> Virtual enviroment adalah sebuah tempat yang digunakan untuk menjalankan suatu project dengan suatu lingkungan yang terisolasi,sehingga dependency/requirements
         suatu project dapat dilakukan tanpa mengganggu enviroment asli, walaupun tanpa menggunakan virtual enviroment kita tetap bisa membuat aplikasi web berbasis
         Django, dikarenakan requirements yang diperlukan bisa diinstall di luat virtual enviroment.
      
    - Jelaskan bagaimana cara kamu mengimplementasikan poin 1 sampai dengan 4 di atas.
+   
      -> Pertama, saya mulai mengerjakan dari models.py karena pada poin 1 saya harus dapat melakukan pengambilan data dari model. Saya mengisi data yang ada pada
         template kedalam models.py. Selanjutnya saya mengerjakan views.py dimana saya harus membuat fungsi untuk melakukan pengambilan data dari model, saya lakukan
         itu dengan meng-import class yang saya buat pada models.py dan membuat fungsi sesuai dengan yang diminta. Selanjutnya saya meng-import fungsi pada views.py
