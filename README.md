@@ -17,6 +17,7 @@ Pada tugas ini, kamu akan mengimplementasikan konsep Model-View-Template serta b
    - Buatlah bagan yang berisi request client ke web aplikasi berbasis Django beserta responnya dan jelaskan pada bagan tersebut kaitan antara urls.py, views.py,
      models.py, dan berkas html;
      ->![Untitled Diagram drawio (3)](https://user-images.githubusercontent.com/94624202/190207366-f071378a-13ac-45cc-be84-64bb9d29d5b8.png)
+       
        URL       : Mengarahkan permintaan HTTP ke tampilan yang sesuai berdasarkan URL perminataan
        View      : Menerima permintaan HTTP dan mengembalikan respon HTTP. view mengakses data yang diperlukan untuk memenuhi request melalu model, dan mendelegasikan
                    formating sebagai tanggung jawab dari template
