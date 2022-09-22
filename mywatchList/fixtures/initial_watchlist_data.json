@@ -1,6 +1,6 @@
 [
     {
-        "model": "mywatchList.watchlist",
+        "model": "mywatchList.WatchList",
         "pk": 1,
         "fields": {
             "watched": true,
