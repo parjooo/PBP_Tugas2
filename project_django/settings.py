@@ -16,8 +16,7 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+
 PRODUCTION = os.getenv('DATABASE_URL') is not None
 
 # Quick-start development settings - unsuitable for production
@@ -28,7 +27,9 @@ SECRET_KEY = 'django-insecure-3@5wx%(^*zl68l(o$^m-3%cvjv0g&mom1ra=oj5f048_al57s7
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
+#Timezone
+TIME_ZONE = 'WIB'
+USE_TZ = True
 ALLOWED_HOSTS = ["*"]
 
 # Application definition
@@ -42,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'example_app',
     'katalog',
-    'mywatchList'
+    'mywatchList',
+    'todolist'
 ]
 
 MIDDLEWARE = [
@@ -136,6 +138,8 @@ STATICFILES_DIRS = [
 
 STATICFILES_STORAGE = ''
 
+for directory in [*STATICFILES_DIRS, STATIC_ROOT]:
+    directory.mkdir(exist_ok=True)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
