@@ -1,8 +1,8 @@
 from django.db import models
 
-class WatchList(models.Model):
-    watched = models.BooleanField()
-    title = models.CharField(max_length = 100)
-    rating = models.FloatField()
-    release_date = models.CharField(max_length = 20)
+class MyWatchList(models.Model):
+    watched = models.CharField(max_length=3)
+    title = models.TextField()
+    rating = models.IntegerField()
+    release_date = models.TextField()
     review = models.TextField()
