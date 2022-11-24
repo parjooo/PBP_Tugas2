@@ -3,10 +3,10 @@
         "model": "mywatchList.WatchList",
         "pk": 1,
         "fields": {
-            "watched": true,
+            "watched": "Yes",
             "title": "Interstellar",
-            "rating": 8.6,
-            "release_date": "Nov 7, 2014",
+            "rating": 9,
+            "release_date": "07-10-2014",
             "review": "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home."
         }
     },
@@ -14,10 +14,10 @@
         "model": "mywatchList.WatchList",
         "pk": 2,
         "fields": {
-            "watched": false,
+            "watched": "No",
             "title": "Dunkirk",
-            "rating": 7.8,
-            "release_date": "Jul 21, 2017",
+            "rating": 8,
+            "release_date": "21-07-2017",
             "review": "In May 1940, Germany advanced into France, trapping Allied troops on the beaches of Dunkirk. Under air and ground cover from British and French forces, troops were slowly and methodically evacuated from the beach using every serviceable naval and civilian vessel that could be found. At the end of this heroic mission, 330,000 French, British, Belgian and Dutch soldiers were safely evacuated."
         }
     },
@@ -25,10 +25,10 @@
         "model": "mywatchList.WatchList",
         "pk": 3,
         "fields": {
-            "watched": true,
+            "watched": "Yes",
             "title": "The Wolf of Wall Street",
-            "rating": 8.3,
-            "release_date": "Dec 25, 2013",
+            "rating": 8,
+            "release_date": "25-12-2013",
             "review": "In 1987, Jordan Belfort (Leonardo DiCaprio) takes an entry-level job at a Wall Street brokerage firm. By the early 1990s, while still in his 20s, Belfort founds his own firm, Stratton Oakmont. Together with his trusted lieutenant (Jonah Hill) and a merry band of brokers, Belfort makes a huge fortune by defrauding wealthy investors out of millions. However, while Belfort and his cronies partake in a hedonistic brew of sex, drugs and thrills, the SEC and the FBI close in on his empire of excess."
         }
     },
@@ -36,10 +36,10 @@
         "model": "mywatchList.WatchList",
         "pk": 4,
         "fields": {
-            "watched": true,
+            "watched": "Yes",
             "title": "Top Gun: Maverick",
-            "rating": 8.4,
-            "release_date": "May 27, 2022",
+            "rating": 8,
+            "release_date": "27-05-2022",
             "review": "After more than thirty years of service as one of the Navy’s top aviators, Pete “Maverick” Mitchell (Tom Cruise) is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him. When he finds himself training a detachment of Top Gun graduates for a specialized mission the likes of which no living pilot has ever seen, Maverick encounters Lt. Bradley Bradshaw (Miles Teller), call sign: “Rooster,” the son of Maverick’s late friend and Radar Intercept Officer Lt. Nick Bradshaw, aka “Goose”. Facing an uncertain future and confronting the ghosts of his past, Maverick is drawn into a confrontation with his own deepest fears, culminating in a mission that demands the ultimate sacrifice from those who will be chosen to fly it."
         }
     },
@@ -47,10 +47,10 @@
         "model": "mywatchList.WatchList",
         "pk": 5,
         "fields": {
-            "watched": false,
+            "watched": "No",
             "title": "Obi-Wan Kenobi",
-            "rating": 7.1,
-            "release_date": "May 27, 2022",
+            "rating": 7,
+            "release_date": "27-05-2022",
             "review": "The Jedi Master contends with the consequences of his greatest defeat -- the downfall and corruption of his one-time friend and apprentice, Anakin Skywalker, who turned to the dark side as evil Sith Lord Darth Vader."
         }
     },
@@ -58,10 +58,10 @@
         "model": "mywatchList.WatchList",
         "pk": 6,
         "fields": {
-            "watched": true,
+            "watched": "Yes",
             "title": "The Matrix",
-            "rating": 8.7,
-            "release_date": "Mar 31, 1999",
+            "rating": 9,
+            "release_date": "31-03-1999",
             "review": "Neo (Keanu Reeves) believes that Morpheus (Laurence Fishburne), an elusive figure considered to be the most dangerous man alive, can answer his question -- What is the Matrix? Neo is contacted by Trinity (Carrie-Anne Moss), a beautiful stranger who leads him into an underworld where he meets Morpheus. They fight a brutal battle for their lives against a cadre of viciously intelligent secret agents. It is a truth that could cost Neo something more precious than his life."
         }
     },
@@ -69,10 +69,10 @@
         "model": "mywatchList.WatchList",
         "pk": 7,
         "fields": {
-            "watched": true,
+            "watched": "Yes",
             "title": "The King's Man",
-            "rating": 6.3,
-            "release_date": "Dec 22, 2021",
+            "rating": 6,
+            "release_date": "22-12-2021",
             "review": "As a collection of history's worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them. Discover the origins of the very first independent intelligence agency in The King's Man."
         }
     },
@@ -80,10 +80,10 @@
         "model": "mywatchList.WatchList",
         "pk": 8,
         "fields": {
-            "watched": true,
+            "watched": "Yes",
             "title": "Cars",
-            "rating": 7.2,
-            "release_date": "Jun 9, 2006",
+            "rating": 7,
+            "release_date": "09-06-2006",
             "review": "While traveling to California to race against The King (Richard Petty) and Chick Hicks (Michael Keaton) for the Piston Cup Championship, Lightning McQueen (Owen Wilson) becomes lost after falling out of his trailer in a run down town called Radiator Springs. While there he slowly befriends the town's odd residents, including Sally (Bonnie Hunt), Doc Hudson (Paul Newman) and Mater (Larry the Cable Guy). When it comes time for him to leave to championship is no longer his top priority."
         }
     },
@@ -91,10 +91,10 @@
         "model": "mywatchList.WatchList",
         "pk": 9,
         "fields": {
-            "watched": false,
+            "watched": "No",
             "title": "The Godfather",
-            "rating": 9.2,
-            "release_date": "Mar 15, 1972",
+            "rating": 9,
+            "release_date": "15-03-1972",
             "review": "Widely regarded as one of the greatest films of all time, this mob drama, based on Mario Puzo's novel of the same name, focuses on the powerful Italian-American crime family of Don Vito Corleone (Marlon Brando). When the don's youngest son, Michael (Al Pacino), reluctantly joins the Mafia, he becomes involved in the inevitable cycle of violence and betrayal. Although Michael tries to maintain a normal relationship with his wife, Kay (Diane Keaton), he is drawn deeper into the family business."
         }
     },
@@ -102,10 +102,10 @@
         "model": "mywatchList.WatchList",
         "pk": 10,
         "fields": {
-            "watched": true,
+            "watched": "Yes",
             "title": "The Irishman",
-            "rating": 7.8,
-            "release_date": "Nov 1, 2019",
+            "rating": 8,
+            "release_date": "01-10-2019",
             "review": "In the 1950s, truck driver Frank Sheeran gets involved with Russell Bufalino and his Pennsylvania crime family. As Sheeran climbs the ranks to become a top hit man, he also goes to work for Jimmy Hoffa -- a powerful Teamster tied to organized crime."
         }
     }
